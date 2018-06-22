@@ -1,0 +1,18 @@
+{
+  "current_collector_filters": {
+    "someFilterName": [
+      [ "~", "someFilterValue" ],
+      [ "!", "anotherFilterValue" ]
+    ]
+  },
+  "target_collector_filters": {
+    "someFilterName": [ 
+      [ "~", "someFilterValue" ]
+    ]
+  },
+  "device_filters": {
+    "someFilterName": [
+      [ "~", "someFilterValue" ]
+    ]
+  }
+} 
