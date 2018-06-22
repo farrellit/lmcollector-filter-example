@@ -1,18 +1,18 @@
 {
   "current_collector_filters": {
-    "someFilterName": [
+    "collectorGroup": [
       [ "~", "someFilterValue" ],
       [ "!", "anotherFilterValue" ]
     ]
   },
   "target_collector_filters": {
-    "someFilterName": [ 
+    "newCollectorGroup": [
       [ "~", "someFilterValue" ]
     ]
   },
   "device_filters": {
-    "someFilterName": [
-      [ "~", "someFilterValue" ]
+    "deviceGroup": [ 
+      [ "~", "firstToMove" ]
     ]
   }
 } 
